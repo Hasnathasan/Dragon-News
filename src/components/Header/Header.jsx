@@ -24,19 +24,23 @@ const Header = () => {
         </div>
       </div>
       <Navbar fluid={true} rounded={true}>
-        <Navbar.Brand href="https://flowbite.com/">
-          
-        </Navbar.Brand>
+        <Navbar.Brand href="https://flowbite.com/"></Navbar.Brand>
         <div className="flex md:order-2">
-        <button className="btn px-8 rounded-none py-1 btn-active">Login</button>
+          <button className="btn px-8 rounded-none py-1 btn-active">
+            Login
+          </button>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
           <Navbar.Link className="text-lg" href="/navbars" active={true}>
             Home
           </Navbar.Link>
-          <Navbar.Link className="text-lg" href="/navbars">About</Navbar.Link>
-          <Navbar.Link className="text-lg" href="/navbars">Career</Navbar.Link>
+          <Navbar.Link className="text-lg" href="/navbars">
+            About
+          </Navbar.Link>
+          <Navbar.Link className="text-lg" href="/navbars">
+            Career
+          </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
